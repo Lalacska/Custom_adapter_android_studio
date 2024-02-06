@@ -13,7 +13,6 @@ import android.widget.TextView;
 public class MultipleChoiceListActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     TextView txtSelectedText;
-
     ListView lstTheList;
     String loremIpsum =
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, " +
@@ -31,6 +30,7 @@ public class MultipleChoiceListActivity extends AppCompatActivity implements Ada
             strItems[i] = strItems[i].trim();
 
         lstTheList = (ListView)findViewById(R.id.lstTheList);
+
         // Set adapter in the list
         lstTheList.setAdapter(new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_multiple_choice, strItems));

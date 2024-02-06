@@ -31,6 +31,7 @@ public class SingleChoiceListActivity extends AppCompatActivity implements Adapt
             strItems[i] = strItems[i].trim();
 
         lstTheList = (ListView)findViewById(R.id.lstTheList);
+
         // Set adapter in the list
         lstTheList.setAdapter(new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_single_choice, strItems));

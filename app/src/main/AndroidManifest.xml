@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CustomAdapter"
         tools:targetApi="31">
         <activity
+            android:name=".IconListActivity"
+            android:exported="false" />
+        <activity
             android:name=".MultipleChoiceListActivity"
             android:exported="false" />
         <activity
