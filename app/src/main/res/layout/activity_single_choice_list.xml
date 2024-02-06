@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtSelectedText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Her skrives den valgte item"
+        android:textColor="#AA0000"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#0000AA" />
+
+    <ListView
+        android:id="@+id/lstTheList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false" />
+</LinearLayout>
